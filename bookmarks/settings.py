@@ -140,8 +140,8 @@ LOGOUT_URL = 'logout'
 
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'apurv1147@gmail.com'
-EMAIL_HOST_PASSWORD = 'lala1234'
+EMAIL_HOST_USER = 
+EMAIL_HOST_PASSWORD = 
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
@@ -153,14 +153,14 @@ AUTHENTICATION_BACKENDS = [
         'social_core.backends.google.GoogleOAuth2',
 ]
 
-SOCIAL_AUTH_FACEBOOK_KEY = '482969018779379'  # Facebook App ID
-SOCIAL_AUTH_FACEBOOK_SECRET = '1cab00545c3cc2de857b1f5f5a10acdc'  # Facebook App Secret
+SOCIAL_AUTH_FACEBOOK_KEY =   # Facebook App ID
+SOCIAL_AUTH_FACEBOOK_SECRET =   # Facebook App Secret
 
-SOCIAL_AUTH_TWITTER_KEY = 'qn1eEk7FgORrtSHOZI6sMGen8' # Twitter Consumer Key
-SOCIAL_AUTH_TWITTER_SECRET = '3Hccn726nuB5gql7ZMONVydzyMbjoNGNDAXQOB7BsaVojmgjT1' # Twitter Consumer Secret
+SOCIAL_AUTH_TWITTER_KEY =  # Twitter Consumer Key
+SOCIAL_AUTH_TWITTER_SECRET =  # Twitter Consumer Secret
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '169607474782-6nb44arfsen5264t2fdg7brhq4oflb6i.apps.googleusercontent.com' # Google Consumer Key
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'YUtsU5AY-FepMVc1XIt_C4bD' # Google Consumer Secret
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = 
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 
 
 ABSOLUTE_URL_OVERRIDES = {
         'auth.user': lambda u: reverse_lazy('user_detail', args=[u.username])
